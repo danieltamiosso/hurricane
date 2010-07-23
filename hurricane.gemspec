@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "hurricane.gemspec",
      "lib/hurricane.rb",
      "spec/hurricane_spec.rb",
      "spec/spec_helper.rb"
