@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "hurricane"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Hurricane is a tiny tool to parser WordPress eXtended RSS file."
+    gem.description = "Hurricane is a tiny tool to parser WordPress eXtended RSS file."
     gem.email = "email@danieltamiosso.com"
     gem.homepage = "http://github.com/danieltamiosso/hurricane"
     gem.authors = ["Daniel Tamiosso"]

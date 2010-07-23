@@ -19,3 +19,7 @@ Few (really!) features. Just what I needed until this moment:
 * Posts links
 * Posts creation dates
 * Posts descriptions
+
+== Go!
+
+gem install hpricot hurricane
