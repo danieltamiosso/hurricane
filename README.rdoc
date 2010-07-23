@@ -20,6 +20,6 @@ Few (really!) features. Just what I needed until this moment:
 * Posts creation dates
 * Posts descriptions
 
-== Go!
+== - How it works?
 
-gem install hpricot hurricane
+sudo gem install hpricot hurricane
