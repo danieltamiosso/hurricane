@@ -1,17 +1,21 @@
-= hurricane
+= Hurricane: a simple WordPress eXtended RSS file parser
 
-Description goes here.
+Hurricane is a tiny tool to parser WordPress eXtended RSS file.
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+== Example
 
-== Copyright
+@blog = Hurricane.from(FILE)
 
-Copyright (c) 2010 Daniel Tamiosso. See LICENSE for details.
+== Features
+
+Few (really!) features. Just what I needed until this moment:
+
+* Blog title
+* Blog link
+* Blog description
+* Blog creation date
+* Blog categories
+* Posts titles
+* Posts links
+* Posts creation dates
+* Posts descriptions
