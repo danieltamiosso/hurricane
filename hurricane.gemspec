@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{hurricane}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel Tamiosso"]
@@ -26,7 +26,8 @@ Gem::Specification.new do |s|
      "hurricane.gemspec",
      "lib/hurricane.rb",
      "spec/hurricane_spec.rb",
-     "spec/spec_helper.rb"
+     "spec/spec_helper.rb",
+     "spec/wordpress_file.xml"
   ]
   s.homepage = %q{http://github.com/danieltamiosso/hurricane}
   s.rdoc_options = ["--charset=UTF-8"]
