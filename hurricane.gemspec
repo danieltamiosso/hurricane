@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel Tamiosso"]
-  s.date = %q{2010-07-23}
+  s.date = %q{2010-07-26}
   s.description = %q{Hurricane is a tiny tool to parser WordPress eXtended RSS file.}
   s.email = %q{email@danieltamiosso.com}
   s.extra_rdoc_files = [
