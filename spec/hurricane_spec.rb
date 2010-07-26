@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'Hurricane' do
 	
 	FILE = File.open('./wordpress_file.xml', 'r')
-	@blog = Hurricane.from(FILE)
+	@blog = Hurricane::Parse.from(FILE)
 
 	it 'should be offer blog title' do
 		@blog.title.should.equal 'Daniel Tamiosso'
