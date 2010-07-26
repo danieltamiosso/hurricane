@@ -4,7 +4,8 @@ Hurricane is a tiny tool to parser WordPress eXtended RSS file.
 
 == Example
 
-@blog = Hurricane.from(FILE)
+	blog = Hurricane.from(WORDPRESS_FILE)
+	puts "Looking for #{blog.title}"
 
 == Features
 
@@ -20,6 +21,6 @@ Few (really!) features. Just what I needed until this moment:
 * Posts creation dates
 * Posts descriptions
 
-== - How it works?
+== How it works?
 
-sudo gem install hpricot hurricane
+	sudo gem install hpricot hurricane
