@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'Hurricane' do
 	
-	FILE = File.open('./wordpress.2010-07-12.xml', 'r')
+	FILE = File.open('./wordpress_file.xml', 'r')
 	@blog = Hurricane.from(FILE)
 
 	it 'should be offer blog title' do
@@ -18,7 +18,7 @@ describe 'Hurricane' do
 	end
 	
 	it 'should be offer blog created date' do
-		@blog.created_at.should.equal 'Wed, 15 Jul 2009 23:32:34 +0000'
+		@blog.created_at.rfc2822.should.equal 'Wed, 15 Jul 2009 20:32:34 -0300'
 	end
 	
 	it 'should be offer blog categories' do		
@@ -45,7 +45,7 @@ describe 'Hurricane' do
 	end
 	
 	it 'should be get a post with description' do
-		@blog.posts.first.description.should.equal 'Texto do post.'
+		@blog.posts.first.description.should.equal 'Post text'
 	end
 		
 end
